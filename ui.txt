@@ -1,0 +1,77 @@
+
+		"x-560853-example-agent-assist" : {
+			"innerComponents": [
+				"now-icon",
+				"now-loader",
+				"now-heading"
+			],
+			"uiBuilder": {
+				"associatedTypes": ["global.core", "global.landing-page" ],
+				"label": "Agent Assistant",
+				"icon": "handshake-fill",
+				"description": "Quick Agent Assistent",
+				"category": "primitives"
+			}
+		},
+		"x-560853-example-checklist" : {
+			"uiBuilder": {
+				"label": "My Checklist",
+				"icon": "checklist-fill",
+				"description": "Logged in users can manage their tasks",
+				"category": "primitives",
+				"associatedTypes": [
+					"global.core"
+				]
+			}
+		},
+		"x-560853-customer-360": {
+			"uiBuilder": {
+				"label": "User Detail",
+				"icon": "user-fill",
+				"description": "See user's details by id in incident table",
+				"category": "primitives",
+				"associatedTypes": [
+					"global.core"
+				]
+			},
+			"innerComponents": [
+				"now-avatar",
+				"now-icon",
+				"now-label-value-stacked",
+				"now-label-value-inline",
+				"now-heading"
+			],
+			"properties": [
+				{
+				  "name": "table",
+				  "label": "table",
+				  "description": "Name of the table to pick caller from",
+				  "readOnly": false,
+				  "fieldType": "table_name",
+				  "required": true,
+				  "defaultValue": "incident",
+				  "typeMetadata": {}
+				},
+				{
+				  "name": "sysId",
+				  "label": "sysId",
+				  "description": "The unique identifier for the record",
+				  "readOnly": false,
+				  "fieldType": "string",
+				  "required": true,
+				  "defaultValue": "f94f9dee2f1120102aa2a55df699b67e",
+				  "typeMetadata": {}
+				}
+			]
+		},
+		"x-560853-example-task-board" : {
+			"uiBuilder": {
+				"label": "Task Board",
+				"icon": "tags-outline",
+				"description": "drag drop",
+				"category": "primitives",
+				"associatedTypes": [
+					"global.core", "global.landing-page"
+				]
+			}
+		}

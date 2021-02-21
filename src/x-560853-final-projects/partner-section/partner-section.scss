@@ -1,0 +1,19 @@
+@import '@servicenow/sass-kit/host';
+
+:host {
+	display: block;
+}
+
+.cardItem {
+    width: 270px;
+    height: 100px;
+
+
+    .footer {
+        margin: $now-global-space--md auto auto;
+    
+        now-label-value-inline {
+            margin-left: $now-global-space--md;
+        }
+    }
+}

@@ -1,0 +1,55 @@
+@import '@servicenow/sass-kit/host';
+
+:host {
+	display: block;
+}
+.cardItem {
+	// max-width: now-fn-px2rem(500px);
+	margin: $now-global-space--md auto;
+	// padding: $now-global-space--xxl;
+	box-shadow: $now-global-drop-shadow--md;
+    background-color: RGB($now-color--background-primary);
+    width: 100%;
+
+
+	now-card-header {
+		.now-card-tagline {
+			.now-card-tagline-p {
+				font-size: 1rem;
+			}
+		}
+	}
+
+	now-label-value-inline {
+		font-size: 16px !important;
+		margin: $now-global-space--sm auto;
+	}
+
+	textarea {
+		width: 100%;
+		height: 200px;
+	}
+	
+	// @media (max-width: 1000px) {
+	// 	textarea {
+    //     	height: 265px;
+	// 	}	
+	// }
+
+	.action {
+		margin-top: $now-global-space--sm;
+		padding: $now-global-space--sm;
+	}
+
+	.footer {
+		display: flex;
+		flex: row wrap;
+		align-items: center;
+		padding: 10 0;
+		margin: $now-global-space--md auto auto;
+
+		now-label-value-inline {
+			margin-left: $now-global-space--xxl;
+		}
+	}
+}

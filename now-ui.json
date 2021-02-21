@@ -1,0 +1,27 @@
+{
+	"components": {
+	    "x-560853-final-projects": {
+			"uiBuilder": {
+				"associatedTypes": ["global.core", "global.landing-page"],
+				"label": "Integration Assistant",
+				"icon": "grid-three-fill",
+				"description": "A Component to learn UI framework",
+				"category": "primitives"
+			},
+			"innerComponents": [
+				"now-template-card",
+				"now-card",
+				"now-template-card-attachment",
+				"behavior-rtl",
+				"now-toggle",
+				"now-label-value",
+				"now-loader",
+				"now-button",
+				"now-avatar",
+				"now-icon",
+				"now-heading"
+			]
+		}
+	},
+	"scopeName": "x_560853_sccviet_0"
+}

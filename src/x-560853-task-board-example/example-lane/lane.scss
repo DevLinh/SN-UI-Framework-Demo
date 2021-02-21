@@ -1,0 +1,19 @@
+:host {
+	display: block;
+	height: inherit;
+}
+header {
+	font-weight: bold;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	padding: 0px 10px;
+	border-bottom: 1px solid white;
+	margin-bottom: 10px;
+}
+.lane {
+	margin: 0 10px;
+	width: 250px;
+	background: rgba(0, 0, 0, 0.2);
+	height: 100%;
+}
